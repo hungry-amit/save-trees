@@ -1,0 +1,26 @@
+body{
+	width: 100%;
+	height: 100%;
+}
+.container{
+	display: grid;
+	grid-template-columns: repeat(auto-fill,minmax(200px,1Fr));
+	justify-items: start;
+    align-items: start;
+
+}
+
+img{
+	display: flex;
+}
+.nav{
+	background-color: rgba(212, 175, 106,0.3);
+	margin: 10px;
+	display: block;
+	align-items: center;
+	justify-content: center;
+}
+
+button{
+	font-size: 20px;
+}
